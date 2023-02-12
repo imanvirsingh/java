@@ -4,23 +4,22 @@ public class SwitchCase {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// to see how Switch statement is executed
-		int command=55;
+		int balance=1000;
+		int amount=100;
+		int now;
+		String command="l;d";
 		
 		switch(command) {
-		case 0:
-			System.out.println("CodeRunner running to North");
+		case "Withdraw":
+			now=balance-amount;
+			System.out.println("Your balance used to be "+balance+", and now is "+now+".");
 			break;
-		case 1:
-			System.out.println("CodeRunner running to South");
+		case "Deposit":
+			now=balance+amount;
+			System.out.println("Your balance used to be "+balance+", and now is "+now+".");
 			break;
-		case 2:
-			System.out.println("CodeRunner running to East");
-			break;
-		case 3:
-			System.out.println("CodeRunner running to West");
-			break;
-			default :
-				System.out.println("CodeRunner running is confused doesn't know where to go");
+			default:
+				System.out.println("Your balance is "+balance+", no changes made");
 		}
 	}
 
