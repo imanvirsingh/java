@@ -9,6 +9,13 @@ public class JavaConrolFlow {
 		if(x+y>45) {
 			System.out.println("x + y is greater than 45");
 		}
+		// if-else 
+		if(x+y<30) {
+			System.out.println("x + y is less than 30");
+		}else {
+			System.out.println("X + y is greater than 30");
+			
+		}
 
 	}
 
