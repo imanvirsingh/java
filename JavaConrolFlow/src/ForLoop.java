@@ -76,6 +76,11 @@ public class ForLoop {
 			same--;
 			System.out.println();
 		}
+		//using for-Each
+		String[] i= {"Vlovo", "BMW", "Ford", "Mazda"};
+		for(String j:i) { 
+			System.out.println(j+" ");
+		}
 		
 
 	}
