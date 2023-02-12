@@ -45,6 +45,21 @@ public class data_type {
 		System.out.println("trying non-primitive Character data type");
 		System.out.println("myName = "+myName+" is of String data type");
 		
+		//Array
+		String[] cars= {"Volvo","BMW","Ford","Mazda"};
+		for(String i:cars) {
+			System.out.println(i);
 		}
-
+		// multidimensional Array
+		
+		int[][] myNumber= {{1,2,3},{5,6,7}};
+		for(int i=0;i<2;i++){
+			for(int j=0;j<=myNumber.length;j++){
+				System.out.print("{"+myNumber[i][j]+"}");
+			}
+			System.out.println();
+		
+		}
+	
+	}
 }
