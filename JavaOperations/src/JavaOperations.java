@@ -65,7 +65,7 @@ public class JavaOperations {
 		if(x>y) {
 			System.out.println("x is greater than y");
 			System.out.println("Using \">\" operation ");
-		}else {
+	}else {
 			System.out.println("y is greater than x \n Using \">\" operation ");
 		}
 		if(x<y) {
@@ -85,6 +85,28 @@ public class JavaOperations {
 			System.out.println("Using \"<=\" operation ");
 		}else {
 			System.out.println("y is less than or equal to x \n Using \"<=\" operation ");
+		}
+		
+		System.out.println("");
+		System.out.println("--------Using logical Operations--------------");
+		//Using Logical operators 
+		// And Logical operator && --> both conditions must to true for the whole condition to be true
+		int age=20;
+		boolean isCitizen= true;
+		if((age>= 18)&&(isCitizen)) {
+			System.out.println("can Vote!");
+		}else {
+			System.out.println("can not Vote");
+		}
+		// OR Logical operator ||--> returns true if one or two condition is true
+		int c=12;
+		int d=13;
+		boolean isSnowing=false;
+		
+		if((c>d)||(isSnowing)) {
+			System.out.println("True sine one or both conditions is true");
+		}else {
+			System.out.println("False since both of the conditions are false");
 		}
 		
 		
