@@ -16,7 +16,18 @@ public class JavaConrolFlow {
 			System.out.println("X + y is greater than 30");
 			
 		}
-
+	// else-if
+		char grade='F';
+		
+		if(grade=='A') {
+			System.out.println("A is for Awesome!");
+		}else if(grade=='B') {
+			System.out.println("A is for Awesome!");
+		}else if(grade=='C') {
+			System.out.println("C is for Careless.");
+		}else if(grade=='F') {
+			System.out.println("F is for Future Unknown.");
+		}
 	}
 
 }
