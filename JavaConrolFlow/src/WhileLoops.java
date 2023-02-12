@@ -9,6 +9,15 @@ public class WhileLoops {
 			System.out.println(i);
 			i+=2;
 		}
+		//doing the same with do while loop
+		int limit=10;
+		int counter=1;
+		
+		do {
+			System.out.println("We keep countig...");
+			counter++;
+		}while(counter<limit);
+		
 	}
 
 }
